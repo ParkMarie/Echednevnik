@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\park_\\source\\repos\\Echednevnik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61024BC5-1F6D-47D5-899F-1D39AFBB436D}|Echednevnik\\Echednevnik.csproj|c:\\users\\park_\\source\\repos\\echednevnik\\echednevnik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61024BC5-1F6D-47D5-899F-1D39AFBB436D}|Echednevnik\\Echednevnik.csproj|solutionrelative:echednevnik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61024BC5-1F6D-47D5-899F-1D39AFBB436D}|Echednevnik\\Echednevnik.csproj|c:\\users\\park_\\source\\repos\\echednevnik\\echednevnik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61024BC5-1F6D-47D5-899F-1D39AFBB436D}|Echednevnik\\Echednevnik.csproj|solutionrelative:echednevnik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\park_\\source\\repos\\Echednevnik\\Echednevnik\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Echednevnik\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\park_\\source\\repos\\Echednevnik\\Echednevnik\\MainWindow.xaml",
+              "RelativeToolTip": "Echednevnik\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T11:36:33.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\park_\\source\\repos\\Echednevnik\\Echednevnik\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Echednevnik\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\park_\\source\\repos\\Echednevnik\\Echednevnik\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Echednevnik\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T11:36:31.208Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

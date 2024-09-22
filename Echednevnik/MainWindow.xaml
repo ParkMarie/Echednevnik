@@ -1,0 +1,35 @@
+﻿<Window x:Class="Echednevnik.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Echednevnik"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="426" Width="551" Background="#FFC3B3FF">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="29"/>
+            <RowDefinition Height="Auto" MinHeight="25"/>
+            <RowDefinition Height="Auto" MinHeight="40.96"/>
+            <RowDefinition Height="Auto" MinHeight="33"/>
+            <RowDefinition Height="Auto" MinHeight="35.04"/>
+            <RowDefinition Height="189*"/>
+            <RowDefinition Height="58*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="280*"/>
+            <ColumnDefinition Width="137*"/>
+            <ColumnDefinition Width="134*"/>
+        </Grid.ColumnDefinitions>
+        <DatePicker x:Name="Date" Grid.ColumnSpan="3" SelectedDateChanged="date_SelectedDateChanged" Background="#FFC2CDFF"/>
+        <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" Text="Название:" TextAlignment="Center" Margin="0,0,0,1"/>
+        <TextBox x:Name="Name" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Background="#FFD9E0FF" Margin="0,0,0,13"/>
+        <TextBlock Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Text="Описание:" TextAlignment="Center" Margin="0,33,-1,17" Grid.RowSpan="2" />
+        <TextBox x:Name="Description" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" Background="#FFD9E0FF" Margin="0,10,0,0" Grid.RowSpan="2"/>
+        <Button x:Name="Delete" Grid.Column="0" Grid.Row="6" Content="Удалить" HorizontalContentAlignment="Center" Margin="0,10,0,0" Click="delete_note_Click" Background="#FFD9E0FF" />
+        <Button x:Name="Create" Grid.Row="6" Content="Создать" Click="create_note_Click" Background="#FFD9E0FF" Grid.Column="1" Margin="0,10,0,0"/>
+        <Button x:Name="Save" Grid.Column="2" Grid.Row="6" Content="Сохранить" Margin="0,10,0,0" Click="save_note_Click" Background="#FFD9E0FF"/>
+        <ListBox x:Name="AllNote" Grid.Column="0" Grid.Row="1" Grid.RowSpan="5" SelectionChanged="note_SelectionChanged" DisplayMemberPath="Title" Background="#FFD9E0FF"/>
+    </Grid>
+</Window>
